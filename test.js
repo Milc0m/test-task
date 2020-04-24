@@ -53,15 +53,6 @@ function attempt(available, allowed, preffered ) {
             }
             lastValue = temp.pop()
             resultSet.add(lastValue)
-    
-            for (let elem of resultSet) {
-                
-                if (elem != value) {
-                    resultSet.add(elem)
-                    found = true
-                    break
-                }
-            }
         }
     }
 
